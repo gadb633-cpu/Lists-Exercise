@@ -19,5 +19,12 @@ agents.remove("bravo")
 print(agents)
 # 8
 print(len(agents))
-
-
+# 9
+scores = [42,17,95,8,61]
+print(max(scores), min(scores))
+# 10
+copy_agents = agents.copy()
+# print(copy_agents)
+print(agents)
+copy_agents[0] = "ALPHA"
+print(copy_agents)
