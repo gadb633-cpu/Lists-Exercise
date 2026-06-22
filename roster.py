@@ -8,6 +8,9 @@ print(agents[0], agents[4])
 print(agents[2])
 # 4
 print(agents[1:4])
+# 5
+agents.append("Foxtrot")
+print(agents)
 
 
 
