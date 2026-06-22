@@ -44,3 +44,13 @@ b = [4,5,6]
 print(a+b)
 a.extend(b)
 print(a)
+# 3
+items = ["x","y","z","x","y","x"]
+x_items = items.count("x")
+print(x_items)
+items.remove("x")
+print(items)
+items.remove("x")
+print(items)
+items.remove("x")
+print(items)
