@@ -14,5 +14,8 @@ print(agents)
 # 6
 agents.insert(2,"zulu")
 print(agents)
+# 7
+agents.remove("bravo")
+print(agents)
 
 
