@@ -28,3 +28,13 @@ copy_agents = agents.copy()
 print(agents)
 copy_agents[0] = "ALPHA"
 print(copy_agents)
+
+# Part 2
+# 1 
+numbers_1 = [3,1,4,1,5,9,2,6]
+numbers_1.sort()
+print(numbers_1)
+numbers_2 = [3,1,4,1,5,9,2,6]
+print(numbers_2)
+copy_list = sorted(numbers_2)
+print(copy_list)
