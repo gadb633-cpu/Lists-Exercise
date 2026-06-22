@@ -11,6 +11,8 @@ print(agents[1:4])
 # 5
 agents.append("Foxtrot")
 print(agents)
-
+# 6
+agents.insert(2,"zulu")
+print(agents)
 
 
