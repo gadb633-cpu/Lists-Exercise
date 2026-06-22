@@ -17,5 +17,7 @@ print(agents)
 # 7
 agents.remove("bravo")
 print(agents)
+# 8
+print(len(agents))
 
 
