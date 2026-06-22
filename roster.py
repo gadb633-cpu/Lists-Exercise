@@ -54,3 +54,6 @@ items.remove("x")
 print(items)
 items.remove("x")
 print(items)
+# 4
+data = [1,2,3,4,5]
+print(data[0::1])
